@@ -1,0 +1,2 @@
+G = 9.81
+NUMBER_TWO = 2

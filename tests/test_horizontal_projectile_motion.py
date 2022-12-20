@@ -17,6 +17,23 @@ class HorizontalProjectileMotionTestCase(unittest.TestCase):
 
         self.assertEqual(result, 17.9)
 
+    def test_calculate_time_to_get_ground(self):
+        height = 14.5
+
+        result = app_functions.calculate_time_to_get_ground(height)
+        result = round(result, 3)
+
+        self.assertEqual(result, 1.719)
+
+    def test_calculate_range(self):
+        velocity = 17.9
+        time = 1.719
+
+        result = app_functions.calculate_range(velocity, time)
+        result = round(result, 3)
+
+        self.assertEqual(result, 30.770)
+
 
 if __name__ == '__main__':
     unittest.main()
