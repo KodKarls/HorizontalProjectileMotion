@@ -1,2 +1,4 @@
+import app_functions
+
 if __name__ == '__main__':
-    print('Hello Python :)')
+    app_functions.run_app()
