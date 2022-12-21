@@ -12,4 +12,16 @@ VALUE_ERROR_MESSAGE = 'To nie jest liczba zmiennoprzecinkowa (np. 3.14).'
 RANGE_ERROR_MESSAGE = 'Minimalna wartość powinna wynosić: '
 
 G = 9.81
+NUMBER_ZERO = 0
 NUMBER_TWO = 2
+NUMBER_THREE = 3
+NUMBER_FOUR = 4
+
+START_RANGE = 0
+AMOUNT_OF_SAMPLES = 100
+
+X_LABEL = 'Odległość w metrach'
+Y_LABEL = 'Wysokość w metrach'
+PLOT_LABEL = 'Kolejne punkty rzutu'
+PLOT_COLOR = 'red'
+PLOT_MARKER = '+'
